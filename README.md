@@ -44,7 +44,7 @@ Sometimes they are also in base64, so you will first need to take the following 
 ```
 3. Convert [SVG to Base64](https://base64.guru/converter/encode/image/svg) with a website
 > [!WARNING]
-> Pensez à rajouter (si le site ne le fait pas) les DATA URI devant le base64 : ``image/svg+xml;base64,``
+> Remember to add the DATA URI in front of the base64 (if the site does not do so) : ``image/svg+xml;base64,``
 4. Paste the new base64 code into the CSS
 ```css
 .sc-button-small.sc-button-selected.sc-button-like::before,
